@@ -8,10 +8,6 @@ import {
     tailwind,
     nodejs,
     git,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     master,
     southerng,
@@ -20,6 +16,9 @@ import {
     sql,
     githubs,
     flask,
+    movie,
+    recipe,
+    bot,
   } from "../assets";
   
   export const navLinks = [
@@ -140,7 +139,7 @@ import {
       ],
     },
   ];
-  
+  //kept as a reference for future use
   const testimonials = [
     {
       testimonial:
@@ -170,67 +169,69 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Database",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, edit, and save their favorite movies to their profile, as well as view other people's profiles.",
       tags: [
         {
-          name: "react",
+          name: "Python",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "SQLite",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: movie,
+      source_code_link: "https://github.com/itsevanb/MovieDataBase",
+      deployed_link: "http://itsevanb.pythonanywhere.com/",
     },
     {
-      name: "Job IT",
+      name: "Chatbot application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to ask questions and receive quick, accurate answers from a chatbot, utilizing OpenAI's GPT-4 API.",
       tags: [
         {
-          name: "react",
+          name: "Python",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "OpenAI API",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bot,
+      source_code_link: "https://github.com/itsevanb/Evbot",
+      deployed_link: "https://evbot.replit.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Recipe Book",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive recipe keeping application that allows users to create, save, and edit recipes, as well as import their own recipe pictures via url.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
+        {
+          name: "Python",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Fetch API",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: recipe,
+      source_code_link: "https://github.com/itsevanb/Recipe-js",
     },
   ];
   

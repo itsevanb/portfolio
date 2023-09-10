@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,17 +26,14 @@ import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import githubs from "./tech/githubs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import master from "./company/master.png";
 import southerng from "./company/southerng.png";
 import legacy from "./company/legacy.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import movie from "./movie.png";
+import recipe from "./recipe.png";
+import bot from "./bot.png";
 
 export {
   logo,
@@ -59,13 +57,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   master,
   southerng,
   legacy,
@@ -73,4 +65,8 @@ export {
   sql,
   githubs,
   flask,
+  movie,
+  recipe,
+  bot,
+  link,
 };
