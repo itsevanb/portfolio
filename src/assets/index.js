@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import flask from "./tech/flask.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
+import githubs from "./tech/githubs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,4 +69,8 @@ export {
   master,
   southerng,
   legacy,
+  python,
+  sql,
+  githubs,
+  flask,
 };

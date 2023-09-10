@@ -1,24 +1,14 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -26,6 +16,10 @@ import {
     master,
     southerng,
     legacy,
+    python,
+    sql,
+    githubs,
+    flask,
   } from "../assets";
   
   export const navLinks = [
@@ -68,16 +62,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -88,10 +74,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -100,13 +82,21 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: githubs,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "flask",
+      icon: flask,
     },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    }
   ];
   
   const experiences = [
