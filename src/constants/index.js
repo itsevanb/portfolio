@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    master,
+    southerng,
+    legacy,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +49,8 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,55 +111,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Masterschool Bootcamp Graduate",
+      company_name: "Masterschool",
+      icon: master,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed practical expertise in Python, backend developnent utilizing SQL, Git, Flask and more.",
+        "Completed 1000+ hours of coding, 100+ hours of projects, and 100+ hours of job preparation.",
+        "Continued self learning and interested in multple frameworks and languages like React, Tailwind CSS and three.js.",
+        "Introduced to algorithms, data structures, and other computer science fundamentals.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Sales Consultant",
+      company_name: "Southern Glazer's Wine & Spirits",
+      icon: southerng,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2022 - October 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed high-value portfolio of 200+ accounts to drive over $ 2M in annual revenue, and contributed to company expansion",
+        "Fostered long term relationships with clients to understand their needs and provide tailored solutions",
+        "Contributed to monthly sales growth",
+        "Ranked top in the region and second company wide sor specialty product sales, consistently exceeding sales goals",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Operations Manager",
+      company_name: "Legacy Food Hall",
+      icon: legacy,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jannuary 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led professional development for a team of 50+ staff, including 30+ exoert bartenders",
+        "Innovative creative and cost effective cocktail menues to achieve a lean Cost of Goods Sold (COGS) of 14%",
+        "Caollaborated with marketing, finance, and IT, to ecxecute impactful organizational initiatives",
+        "Help develope training programs contributing to successful new location openings",
       ],
     },
   ];
