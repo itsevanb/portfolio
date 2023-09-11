@@ -9,16 +9,50 @@ import { slideIn } from '../utils/motion';
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setform] = useState({
+  const [form, setForm] = useState({
     name: '',
     email: '',
     message: '',
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({...form, [name]: value});
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_qihbvob',
+      'template_edbit9g',
+      {
+        from_name: form.name,
+        to_name: 'Evan',
+        from_email: form.email,
+        to_email: 'evanj.betley@gmail.com',
+        message: form.message,
+      },
+      'QMG-kJTilkfyQaFtB'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you for your message! I will get back to you as soon as possible.');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false)
+      console.log(error);
+      alert('Something went wrong. Please try again or find me on LinkedIn at Evan Betley.')
+    })
+  }
 
   return (
     <div className ="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -59,7 +93,7 @@ const Contact = () => {
               <textarea
               rows="6" 
               name="message"
-              value={form.name}
+              value={form.message}
               onChange={handleChange}
               placeholder="Share your thoughts or inquiries here 😊"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-non font-medium"
