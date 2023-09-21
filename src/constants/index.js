@@ -17,8 +17,8 @@ import {
     githubs,
     flask,
     movie,
-    recipe,
     bot,
+    social,
   } from "../assets";
   
   export const navLinks = [
@@ -213,25 +213,26 @@ import {
       deployed_link: "https://evbot.replit.app/",
     },
     {
-      name: "Recipe Book",
+      name: "Social-Media Application",
       description:
-        "A comprehensive recipe keeping application that allows users to create, save, and edit recipes, as well as import their own recipe pictures via url.",
+        "A full-stack social media application, that allows users to set up profiles, post content, reply to other users, start/join communities and so much more. It is a forever project but it is fully functional and deployed.",
       tags: [
         {
-          name: "Javascript",
+          name: "Full MERN Stack",
           color: "pink-text-gradient",
         },
         {
-          name: "Python",
+          name: "Next.js 13",
           color: "orange-text-gradient",
         },
         {
-          name: "Fetch API",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
       ],
-      image: recipe,
-      source_code_link: "https://github.com/itsevanb/Recipe-js",
+      image: social,
+      source_code_link: "https://github.com/itsevanb/social_media",
+      deployed_link: "https://social-media-pink-two.vercel.app/",
     },
   ];
   

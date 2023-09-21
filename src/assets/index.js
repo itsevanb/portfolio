@@ -34,6 +34,7 @@ import legacy from "./company/legacy.png";
 import movie from "./movie.png";
 import recipe from "./recipe.png";
 import bot from "./bot.png";
+import social from "./social.png"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   recipe,
   bot,
   link,
+  social,
 };
