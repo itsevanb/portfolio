@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-      I am a full-stack developer with a passion for building beautiful, functional, and scalable web applications. My current toolkit includes React, Node.js, SQLite, Python, Flask, and JavaScript. I am seeking a developer position where I can contribute meaningful solutions to real-world challenges and continually grow both technically and as a team member. I am a quick learner and a team player who is eager to learn new technologies and frameworks.
+       My current toolkit includes <span className="text-[#FFD700]">Python, JavaScript/TypeScript, React, Next.js, SQL, and MongoDB.</span> I am seeking a developer position where I can contribute meaningful solutions to real-world challenges and continually grow both technically and as a team member. I am a quick learner and a great team player who is eager to work more in depth with different technologies and frameworks.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -2,8 +2,7 @@ import {
     backend,
     web,
     javascript,
-    html,
-    css,
+    mongodb,
     reactjs,
     tailwind,
     nodejs,
@@ -19,6 +18,9 @@ import {
     movie,
     bot,
     social,
+    ts,
+    next,
+    proj,
   } from "../assets";
   
   export const navLinks = [
@@ -49,12 +51,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Next.js",
+      icon: next,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "TypeScript",
+      icon: ts,
     },
     {
       name: "JavaScript",
@@ -95,7 +97,11 @@ import {
     {
       name: "SQL",
       icon: sql,
-    }
+    },
+    {
+      name: "MongoDb",
+      icon: mongodb,
+    },
   ];
   
   const experiences = [
@@ -169,9 +175,35 @@ import {
   
   const projects = [
     {
+      name: "hireMe Overflow",
+      description:
+        "Think of it as your virtual coffee shop ☕ for tech talks and career moves. We're built on TypeScript, React, Tailwind CSS, Next.js, and MongoDB, aiming to be your go-to place for all things dev. ⚠️ Note: We're still under construction, so pardon our dust! ⚠️ - feel free to see our site while we build with the link above. You will be able to see the home screen, but authentication through Clerk is required to see the rest of the site.",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OpenAI API",
+          color: "green-text-gradient",
+        },
+      ],
+      image: proj,
+      source_code_link: "https://github.com/itsevanb/hireMeOverflow",
+      deployed_link: "https://hire-me-overflow-o77k4w3x0-itsevanb.vercel.app/",
+    },
+    {
       name: "Movie Database",
       description:
-        "Web-based platform that allows users to search, edit, and save their favorite movies to their profile, as well as view other people's profiles.",
+        "Web-based platform that allows users to search, edit, and save their favorite movies to their profile, as well as view other people's profiles. To test the site in action visit the link below and use the following credentials: username: test, password: test.",
       tags: [
         {
           name: "Python",
@@ -193,7 +225,7 @@ import {
     {
       name: "Chatbot application",
       description:
-        "Web application that enables users to ask questions and receive quick, accurate answers from a chatbot, utilizing OpenAI's GPT-4 API.",
+        "Web application that enables users to ask questions and receive quick, accurate answers from a chatbot, utilizing OpenAI's GPT-4 API. Please feel free to ask any questions you may have to the Chatbot by clicking the link, and if you would like to see the source code, click the github icon above.",
       tags: [
         {
           name: "Python",
@@ -215,7 +247,7 @@ import {
     {
       name: "Social-Media Application",
       description:
-        "A full-stack social media application, that allows users to set up profiles, post content, reply to other users, start/join communities and so much more. It is a forever project but it is fully functional and deployed.",
+        "A full-stack social media application, that allows users to set up profiles, post content, reply to other users, start/join communities and so much more. It is a forever project but it is fully functional and deployed. This project will require authentication through Clerk.",
       tags: [
         {
           name: "Full MERN Stack",

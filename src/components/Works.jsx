@@ -80,7 +80,7 @@ const Works = () => {
         variants={fadeIn("", "", 0.2, 1.2)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I've worked on a diverse range of projects, from simple websites to intricate web applications. The projects showcased below were pivotal in completing my bootcamp at Masterschool. This portfolio itself is a testament to my current skill set, leveraging technologies like React, Tailwind CSS, three.js, framer-motion, and react-tilt. I find 3D libraries particularly fascinating and am committed to furthering my expertise in this area. The projects you'll see reflect not just my current capabilities but also my eagerness to adapt and learn new technologies.
+          I have worked on a diverse range of projects, from simple websites to intricate web applications. This portfolio itself is a testament to my current skill set, showcasing capabilities in various technologies like Python, TypeScript, Next.js and backend databases. The projects you see reflect not just my current capabilities but also my eagerness to adapt and learn new technologies. Please feel free to go through them at your leisure and if you have any questions or comments, you can contact me using the from at the bottom of the page.
         </motion.p>
       </div>
 

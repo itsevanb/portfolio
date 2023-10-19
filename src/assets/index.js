@@ -25,6 +25,8 @@ import flask from "./tech/flask.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import githubs from "./tech/githubs.png";
+import ts from "./tech/ts.png";
+import next from "./tech/next.png";
 
 import tesla from "./company/tesla.png";
 import master from "./company/master.png";
@@ -34,7 +36,8 @@ import legacy from "./company/legacy.png";
 import movie from "./movie.png";
 import recipe from "./recipe.png";
 import bot from "./bot.png";
-import social from "./social.png"
+import social from "./social.png";
+import proj from "./proj.png";
 
 export {
   logo,
@@ -71,4 +74,7 @@ export {
   bot,
   link,
   social,
+  ts,
+  next,
+  proj
 };
