@@ -203,7 +203,7 @@ import {
     {
       name: "Movie Database",
       description:
-        "Web-based platform that allows users to search, edit, and save their favorite movies to their profile, as well as view other people's profiles. To test the site in action visit the link below and use the following credentials: username: test, password: test.",
+        "Web-based platform that allows users to search, edit, and save their favorite movies to their profile, as well as view other people's profiles. To test the site in action visit the link above and use the following credentials: username: test, password: test.",
       tags: [
         {
           name: "Python",
@@ -221,28 +221,6 @@ import {
       image: movie,
       source_code_link: "https://github.com/itsevanb/MovieDataBase",
       deployed_link: "http://itsevanb.pythonanywhere.com/",
-    },
-    {
-      name: "Chatbot application",
-      description:
-        "Web application that enables users to ask questions and receive quick, accurate answers from a chatbot, utilizing OpenAI's GPT-4 API. Please feel free to ask any questions you may have to the Chatbot by clicking the link, and if you would like to see the source code, click the github icon above.",
-      tags: [
-        {
-          name: "Python",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Flask",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "OpenAI API",
-          color: "green-text-gradient",
-        },
-      ],
-      image: bot,
-      source_code_link: "https://github.com/itsevanb/Evbot",
-      deployed_link: "https://evbot.replit.app/",
     },
     {
       name: "Social-Media Application",

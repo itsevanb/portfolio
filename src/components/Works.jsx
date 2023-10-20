@@ -1,3 +1,4 @@
+import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -14,7 +15,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
       <Tilt
         options={{
           max: 45,
-          scale: 1.05,
+          scale: 1,
           speed: 420,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -75,16 +76,23 @@ const Works = () => {
         <h2 className={styles.sectionHeadText}>My Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
+      <div className="w-full flex flex-col">
         <motion.p 
-        variants={fadeIn("", "", 0.2, 1.2)}
+        variants={fadeIn("", "", 0.2, 1)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           I have worked on a diverse range of projects, from simple websites to intricate web applications. This portfolio itself is a testament to my current skill set, showcasing capabilities in various technologies like Python, TypeScript, Next.js and backend databases. The projects you see reflect not just my current capabilities but also my eagerness to adapt and learn new technologies. Please feel free to go through them at your leisure and if you have any questions or comments, you can contact me using the from at the bottom of the page.
         </motion.p>
+        <motion.a 
+        variants={fadeIn("", "", 0.2, 1)}
+        className="mt-3 text-secondary text-[17px] underline"
+        href="https://github.com/itsevanb" target="_blank" rel="noopener noreferrer"
+        >
+          For a full break down of my projects, please visit my GitHub, by clicking here.
+        </motion.a>
       </div>
 
-      <div className="mt-2 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`}
           index={index}
