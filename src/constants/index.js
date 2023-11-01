@@ -198,7 +198,7 @@ import {
       ],
       image: proj,
       source_code_link: "https://github.com/itsevanb/hireMeOverflow",
-      deployed_link: "https://hire-me-overflow-o77k4w3x0-itsevanb.vercel.app/",
+      deployed_link: "https://hire-me-overflow.vercel.app/",
     },
     {
       name: "Movie Database",
